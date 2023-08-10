@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "DataBase"
+version = "1"
+description = "Creating SQL objects"
+authors = ["Sergius Art"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
